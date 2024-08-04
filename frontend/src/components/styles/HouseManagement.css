@@ -1,0 +1,54 @@
+/* HouseManagement.css */
+.house-management-container {
+  padding: 20px;
+  margin-left: 250px; /* Ajusta este valor según el ancho del sidebar */
+}
+
+.house-table-container {
+  margin-top: 20px;
+}
+
+.house-image {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.chip.libre {
+  background-color: #28a745;
+  color: white;
+}
+
+.chip.rentada {
+  background-color: #ffc107;
+  color: black;
+}
+
+.chip.vendida {
+  background-color: #dc3545;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .house-management-container {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .house-table-container {
+    overflow-x: auto;
+  }
+
+  .table {
+    width: 100%;
+  }
+}
